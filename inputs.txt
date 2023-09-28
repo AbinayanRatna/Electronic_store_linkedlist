@@ -1,0 +1,37 @@
+CREATE resistor
+CREATE inductor
+CREATE capacitor
+ADD resistor 20 Ohm 56 8.25
+ADD resistor 100 kiloOhm 50 90.00
+ADD resistor 10 kiloOhm 75 15.25
+ADD inductor 5 mH 80 8.50
+ADD inductor 45 mH 60 16.35
+ADD inductor 65 mH 67 19.35
+ADD capacitor 5 uf 63 25.50
+ADD capacitor 10 uf 45 19.13
+ADD inductor 51 mH 800 28.46
+SEARCH resistor 20 Ohm
+SEARCH resistor 100 kiloOhm
+SEARCH resistor 10 kiloOhm
+SEARCH capacitor 5 uf
+SEARCH inductor 51 mH
+DISPLAY resistor
+DISPLAY capacitor
+DISPLAY inductor
+ADD capacitor 36 uf 677 32.78
+DELETE resistor 10 kiloOhm
+SEARCH resistor 10 kiloOhm
+DISPLAY resistor
+SELL resistor 20 Ohm 10
+SELL inductor 45 mH 10
+SELL capacitor 5.8 uf 15
+SEARCH resistor 20 Ohm
+SEARCH inductor 45 mH
+SEARCH capacitor 5 uf
+BUY resistor 100 kiloOhm 25
+DISPLAY resistor
+SETPRICE inductor 51 mH 87.00
+SEARCH inductor 51 mH
+DISPLAY capacitor
+SORT capacitor
+DISPLAY capacitor
