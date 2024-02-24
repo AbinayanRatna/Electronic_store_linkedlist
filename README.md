@@ -1,4 +1,7 @@
 # Electronic_store_linkedlist
+
+The users can add, save, edit, delete the electronics items and the data will be saved in the local machine.
+
 ## Author
 
 👤 **Abinayan Ratnasingam**
